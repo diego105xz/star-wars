@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <style>
+        body{
+            margin: 0;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: whitesmoke;
+            text-align: center;
+        }
+
+
+        header{
+            background-color: gainsboro;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid gray;
+            position: fixed;
+            width: 100%;
+        }
+
+        .frase{
+            color: gray;
+        }
+
+        span{
+            color: red;
+        }
+
+        section{
+            padding-top: 50px;
+        }
+
+        .menu{
+            display: flex;
+        }
+        
+        .menu a{
+            padding: 0px 10px;
+            text-decoration: none;
+            color: gray;
+        }
+
+        .capa{
+            background-image: url("img/capa.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .capa div{
+            background-color: rgb(168, 17, 17);
+            height: 150px;
+            width: 150px;
+            opacity: 0.5;
+            border-radius: 3px;
+            border: 1px solid white;
+            color: white;
+            text-align: center;
+        }
+
+        .colecao{
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        article{
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            margin: auto;
+        }
+
+        article div{
+            padding-bottom: 10px;
+            border-bottom: 3px solid red;
+        }
+
+        .colecao img{
+            width: 200px;
+            height: 150px;
+            border-radius: 5px;
+        }
+
+        .jedi img{
+            width: 100%;
+        }
+
+        .jedi{
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="frase">
+            <p>Best father of the <span>Galaxy</span></p>
+        </div>
+        <div class="menu">
+            <p><a href="#">Sobre</a></p>
+            <p><a href="#">Habilidades</a></p>
+        </div>
+    </header>
+    <main>
+        <section class="capa">
+            <div class=>
+                <h1>Luke,</h1>
+                <p>I'm your father</p>
+            </div>
+        </section>
+        <section class="colecao">
+            <h2>May the force be width you</h2>
+            <article>
+                <div><img src="img/img2.png" alt="pai"></div>
+                <div><img src="img/img1.jpg" alt="pai"></div>
+                <div><img src="img/img3.jpg" alt="pai"></div>
+            </article>
+        </section>
+        <section class="jedi">
+            <h2>Light x darkness</h2>
+            <img src="img/lightxDarkness.jpg" alt="jedis">
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
